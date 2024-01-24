@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+
+}
+
+.container {
+  flex: 1;
+  position: relative;
+
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.header,
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10rem;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 27px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  width: 100%;
+}
+
+.btn {
+  width: 167px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn-1,
+.btn-3 {
+  padding: 14px 5px 14px 5px;
+  border-radius: 28px;
+  color: white;
+}
+
+.btn-1 {
+  background: #13183F;
+}
+
+.btn-2 {
+  background: linear-gradient(#FF6F48, #F02AA6);
+  padding: 16px 24px;
+  border-radius: 31px;
+  color: white;
+  
+}
+
+.btn-3 {
+  background: linear-gradient(#4851FF, #F02AA6);
+}
+
+.main-page {
+  display: flex;
+  margin-left: 10rem;
+  
+}
+
+.info {
+  width: 457px;
+}
+
+h1 {
+  color: #13183F;
+  font-weight: bold;
+  font-size: 52px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  margin: 20px 0;
+}
+
+p {
+  color: #83869A;
+  font-size: 18px;
+  width: 445px;
+  padding-bottom: 20px;
+  
+}
+
+img {
+  width: 720px;
+  
+}
+
+.img {
+  width: 100%;
+  position: absolute;
+  right: -52rem;
+  top: -6rem;
+  
+}
+
+.cards-container {
+  display: grid;
+  grid-template: repeat(3, 1fr)/(3, 1fr);
+  justify-content: space-evenly;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+}
+
+.card {
+  width: 350px;
+  height: 346px;
+  border: none;
+  box-shadow: 2px 5px  rgba(125, 125, 126, 0.11);
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.single-card {
+  background: linear-gradient(#FF6F48, #F02AA6);
+  color: white;
+  font-size: 24px;
+  
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #13183F;
+}
+
+.descrip {
+  width: 286px;
+}
+
+.card-btn {
+  color: #F74780;
+  font-weight: bold;
+}
+
+.footer {
+  background: #13183F;
+  color: white;
+  height: 120px;
+}
